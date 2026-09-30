@@ -1417,3 +1417,341 @@ body {
         gap: 16px;
     }
 }
+/* Businesses Page */
+
+/* Businesses Hero */
+
+.businesses-hero {
+    width: 100%;
+    background: #f7faf9;
+    padding: 85px 24px;
+}
+
+.businesses-hero-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.businesses-label {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: #0a875f;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.businesses-hero-container h1 {
+    margin-bottom: 18px;
+    color: #172033;
+    font-size: 46px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.businesses-hero-container > p {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    color: #6b7582;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.businesses-search {
+    max-width: 700px;
+    height: 58px;
+    margin: 0 auto;
+    padding: 6px 6px 6px 18px;
+
+    display: flex;
+    align-items: center;
+
+    background: #ffffff;
+    border: 1px solid #dfe6e3;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(23, 32, 51, 0.07);
+}
+
+.businesses-search input {
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+
+    border: none;
+    outline: none;
+
+    color: #172033;
+    font-size: 14px;
+}
+
+.businesses-search input::placeholder {
+    color: #9aa4af;
+}
+
+.businesses-search button {
+    height: 46px;
+    padding: 0 24px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #0a875f;
+    color: #ffffff;
+
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* Business Directory */
+
+.business-directory {
+    width: 100%;
+    background: #ffffff;
+    padding: 90px 24px;
+}
+
+.directory-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.directory-heading {
+    margin-bottom: 40px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.directory-heading > div > span {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #0a875f;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.directory-heading h2 {
+    color: #172033;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.directory-heading select {
+    min-width: 210px;
+    height: 46px;
+    padding: 0 14px;
+
+    border: 1px solid #dce4e0;
+    border-radius: 7px;
+
+    background: #ffffff;
+    color: #172033;
+
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+}
+
+.directory-heading select:focus {
+    border-color: #0a875f;
+}
+
+
+/* Directory Grid */
+
+.directory-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+}
+
+.directory-card {
+    overflow: hidden;
+
+    background: #ffffff;
+    border: 1px solid #e5ebe8;
+    border-radius: 12px;
+
+    transition: 0.3s ease;
+}
+
+.directory-card:hover {
+    transform: translateY(-5px);
+    border-color: #0a875f;
+    box-shadow: 0 14px 32px rgba(23, 32, 51, 0.08);
+}
+
+.directory-image {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+
+.directory-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+    transition: 0.4s ease;
+}
+
+.directory-card:hover .directory-image img {
+    transform: scale(1.04);
+}
+
+.directory-featured {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+
+    padding: 7px 11px;
+
+    border-radius: 5px;
+
+    background: #0a875f;
+    color: #ffffff;
+
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.directory-content {
+    padding: 26px;
+}
+
+.directory-category {
+    display: inline-block;
+    margin-bottom: 9px;
+
+    color: #0a875f;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.directory-content h3 {
+    margin-bottom: 9px;
+
+    color: #172033;
+    font-size: 21px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.directory-location {
+    margin-bottom: 13px;
+    color: #6b7582;
+    font-size: 13px;
+}
+
+.directory-content > p:not(.directory-location) {
+    margin-bottom: 20px;
+
+    color: #6b7582;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.directory-link {
+    color: #0a875f;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.directory-link:hover {
+    color: #076b4b;
+}
+
+
+/* Businesses Page Responsive */
+
+@media (max-width: 800px) {
+
+    .businesses-hero {
+        padding: 65px 24px;
+    }
+
+    .businesses-hero-container h1 {
+        font-size: 40px;
+    }
+
+    .directory-heading {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .directory-heading select {
+        width: 100%;
+    }
+
+    .directory-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .businesses-hero {
+        padding: 55px 18px;
+    }
+
+    .businesses-label {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    .businesses-hero-container h1 {
+        font-size: 32px;
+        line-height: 1.15;
+    }
+
+    .businesses-hero-container > p {
+        font-size: 15px;
+    }
+
+    .businesses-search {
+        height: auto;
+        padding: 8px;
+        flex-wrap: wrap;
+    }
+
+    .businesses-search input {
+        width: 100%;
+        height: 44px;
+    }
+
+    .businesses-search button {
+        width: 100%;
+        margin-top: 6px;
+    }
+
+    .business-directory {
+        padding: 65px 18px;
+    }
+
+    .directory-heading h2 {
+        font-size: 30px;
+    }
+
+    .directory-image {
+        height: 230px;
+    }
+
+    .directory-content {
+        padding: 22px;
+    }
+
+    .directory-content h3 {
+        font-size: 19px;
+    }
+}
