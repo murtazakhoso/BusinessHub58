@@ -2036,3 +2036,409 @@ body {
     }
 
 }
+/* Advertise Page */
+
+/* Advertise Hero */
+
+.advertise-page-hero {
+    width: 100%;
+    background: #f7faf9;
+    padding: 90px 24px;
+}
+
+.advertise-page-hero-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.advertise-page-label {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: #0a875f;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.advertise-page-hero-container h1 {
+    margin-bottom: 20px;
+    color: #172033;
+    font-size: 48px;
+    line-height: 1.18;
+    font-weight: 800;
+}
+
+.advertise-page-hero-container p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color: #6b7582;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.advertise-page-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.advertise-page-primary,
+.advertise-page-secondary {
+    display: inline-block;
+    padding: 14px 23px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.advertise-page-primary {
+    background: #0a875f;
+    color: #ffffff;
+}
+
+.advertise-page-primary:hover {
+    background: #076b4b;
+}
+
+.advertise-page-secondary {
+    background: #ffffff;
+    border: 1px solid #dce3e8;
+    color: #172033;
+}
+
+.advertise-page-secondary:hover {
+    border-color: #0a875f;
+    color: #0a875f;
+}
+
+
+/* Advertising Options */
+
+.advertising-options {
+    width: 100%;
+    background: #ffffff;
+    padding: 90px 24px;
+}
+
+.advertising-options-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.advertising-options-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.advertising-card {
+    position: relative;
+    padding: 35px 30px;
+    background: #ffffff;
+    border: 1px solid #e5ebe8;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.advertising-card:hover {
+    transform: translateY(-5px);
+    border-color: #0a875f;
+    box-shadow: 0 14px 32px rgba(23, 32, 51, 0.08);
+}
+
+.advertising-icon {
+    width: 68px;
+    height: 68px;
+    margin-bottom: 22px;
+    border-radius: 50%;
+    background: #f0f8f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+}
+
+.advertising-card-label {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #0a875f;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.advertising-card h3 {
+    margin-bottom: 13px;
+    color: #172033;
+    font-size: 22px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.advertising-card > p {
+    min-height: 78px;
+    margin-bottom: 22px;
+    color: #6b7582;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.advertising-card ul {
+    margin: 0 0 25px;
+    padding: 0;
+    list-style: none;
+}
+
+.advertising-card ul li {
+    margin-bottom: 10px;
+    color: #4f5b69;
+    font-size: 14px;
+}
+
+.advertising-card-link {
+    color: #0a875f;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.advertising-card-link:hover {
+    color: #076b4b;
+}
+
+
+/* Why Advertise */
+
+.why-advertise {
+    width: 100%;
+    background: #f7faf9;
+    padding: 90px 24px;
+}
+
+.why-advertise-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 80px;
+}
+
+.why-advertise-content {
+    max-width: 600px;
+}
+
+.why-advertise-content > span {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #0a875f;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.why-advertise-content h2 {
+    margin-bottom: 18px;
+    color: #172033;
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.why-advertise-content p {
+    color: #6b7582;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.why-advertise-points {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.why-advertise-point {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 22px;
+    background: #ffffff;
+    border: 1px solid #e5ebe8;
+    border-radius: 10px;
+}
+
+.why-advertise-point strong {
+    color: #0a875f;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.why-advertise-point h3 {
+    margin-bottom: 7px;
+    color: #172033;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.why-advertise-point p {
+    color: #6b7582;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+/* Final CTA */
+
+.advertise-final-cta {
+    width: 100%;
+    background: #0d234a;
+    padding: 90px 24px;
+}
+
+.advertise-final-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.advertise-final-container > span {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #54c99b;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.advertise-final-container h2 {
+    margin-bottom: 18px;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.advertise-final-container p {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    color: #d7e0eb;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.advertise-final-btn {
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: 7px;
+    background: #0a875f;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.advertise-final-btn:hover {
+    background: #12a875;
+    transform: translateY(-2px);
+}
+
+
+/* Advertise Page Responsive */
+
+@media (max-width: 900px) {
+
+    .advertising-options-grid {
+        grid-template-columns: 1fr;
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+    .advertising-card > p {
+        min-height: auto;
+    }
+
+    .why-advertise-container {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .advertise-page-hero {
+        padding: 60px 18px;
+    }
+
+    .advertise-page-label {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    .advertise-page-hero-container h1 {
+        font-size: 33px;
+        line-height: 1.15;
+    }
+
+    .advertise-page-hero-container p {
+        font-size: 15px;
+    }
+
+    .advertise-page-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .advertise-page-primary,
+    .advertise-page-secondary {
+        width: 100%;
+        text-align: center;
+    }
+
+    .advertising-options {
+        padding: 65px 18px;
+    }
+
+    .advertising-card {
+        padding: 30px 24px;
+    }
+
+    .why-advertise {
+        padding: 65px 18px;
+    }
+
+    .why-advertise-content h2 {
+        font-size: 30px;
+    }
+
+    .why-advertise-content p {
+        font-size: 15px;
+    }
+
+    .why-advertise-point {
+        padding: 20px;
+    }
+
+    .advertise-final-cta {
+        padding: 65px 18px;
+    }
+
+    .advertise-final-container h2 {
+        font-size: 30px;
+    }
+
+    .advertise-final-container p {
+        font-size: 15px;
+    }
+
+    .advertise-final-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+}
