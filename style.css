@@ -567,3 +567,126 @@ body {
     font-size: 14px;
     line-height: 1.7;
 }
+/* Featured Promotion CTA Section */
+
+.promotion-cta {
+    width: 100%;
+    background: #0d234a;
+    padding: 90px 24px;
+}
+
+.promotion-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1.5fr 0.8fr;
+    align-items: center;
+    gap: 70px;
+}
+
+.promotion-content {
+    max-width: 700px;
+}
+
+.promotion-label {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: #54c99b;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.promotion-content h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.promotion-content > p {
+    max-width: 620px;
+    margin-bottom: 26px;
+    color: #d7e0eb;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.promotion-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px 28px;
+    margin-bottom: 32px;
+}
+
+.promotion-features span {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.promotion-btn {
+    display: inline-block;
+    padding: 14px 24px;
+    border-radius: 7px;
+    background: #0a875f;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.promotion-btn:hover {
+    background: #12a875;
+    transform: translateY(-2px);
+}
+
+.promotion-highlight {
+    padding: 38px 30px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 14px;
+    text-align: center;
+}
+
+.highlight-badge {
+    display: inline-block;
+    margin-bottom: 22px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    background: #0a875f;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.highlight-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: #eaf6f1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+}
+
+.promotion-highlight h3 {
+    margin-bottom: 12px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.promotion-highlight p {
+    color: #cbd5e1;
+    font-size: 14px;
+    line-height: 1.7;
+}
