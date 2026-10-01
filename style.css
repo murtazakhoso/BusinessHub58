@@ -3218,3 +3218,104 @@ body {
     font-size: 12px;
     line-height: 1.5;
 }
+/* =========================================================
+   LIST YOUR BUSINESS PAGE — RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+    .listing-page-hero {
+        padding: 75px 24px;
+    }
+
+    .listing-page-hero-container h1 {
+        font-size: 42px;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .promotion-options {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .listing-page-hero {
+        padding: 55px 18px;
+    }
+
+    .listing-page-label {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    .listing-page-hero-container h1 {
+        font-size: 33px;
+        line-height: 1.15;
+    }
+
+    .listing-page-hero-container p {
+        font-size: 15px;
+    }
+
+    .listing-form-section {
+        padding: 65px 18px;
+    }
+
+    .listing-form-heading {
+        margin-bottom: 38px;
+    }
+
+    .listing-form-heading h2 {
+        font-size: 30px;
+    }
+
+    .listing-form-heading p {
+        font-size: 15px;
+    }
+
+    .form-section {
+        margin-bottom: 20px;
+        padding: 25px 20px;
+    }
+
+    .form-section-title {
+        margin-bottom: 23px;
+    }
+
+    .form-section-title h3 {
+        font-size: 19px;
+    }
+
+    .form-section-title p {
+        font-size: 13px;
+    }
+
+    .form-grid {
+        gap: 18px;
+    }
+
+    .form-group input,
+    .form-group select {
+        height: 46px;
+    }
+
+    .form-group textarea {
+        min-height: 135px;
+    }
+
+    .promotion-option {
+        padding: 17px;
+    }
+
+    .listing-submit-btn {
+        width: 100%;
+        padding: 14px 20px;
+    }
+
+}
